@@ -35,7 +35,11 @@ The project is built using the following key technologies:
 
 ## 📺 Demo / Screenshots
 
-*(Optional: Add screenshots or a short GIF here to visually demonstrate the application's interface and key functionalities. This makes it much easier for users to understand what your project does at a glance!)*
+**Application Interface:**
+![Research Paper Summarizer Interface](Images/post.png "Main application interface")
+
+**Summary Generation:**
+![Generated Summary Example](Images/post2.png "Example of a generated summary")
 
 ---
 
