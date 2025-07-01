@@ -36,10 +36,10 @@ The project is built using the following key technologies:
 ## 📺 Demo / Screenshots
 
 **Application Interface:**
-![Research Paper Summarizer Interface](Images/post.png "Main application interface")
+![Research Paper Summarizer Interface](Images/post.PNG "Main application interface")
 
 **Summary Generation:**
-![Generated Summary Example](Images/post2.png "Example of a generated summary")
+![Generated Summary Example](Images/post2.PNG "Example of a generated summary")
 
 ---
 
