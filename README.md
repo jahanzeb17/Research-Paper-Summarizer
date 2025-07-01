@@ -4,6 +4,26 @@ This project is a Streamlit-based web application that allows you to upload rese
 
 ---
 
+## 📝 Table of Contents
+
+* [✨ Features](#-features)
+* [🚀 Setup and Installation](#-setup-and-installation)
+    * [1. Clone the Repository](#1-clone-the-repository)
+    * [2. Create a Virtual Environment (Recommended)](#2-create-a-virtual-environment-recommended)
+    * [3. Install Dependencies](#3-install-dependencies)
+    * [4. Set Up Environment Variables](#4-set-up-environment-variables)
+    * [5. Run the Streamlit Application](#5-run-the-streamlit-application)
+* [💡 Usage](#-usage)
+* [📺 Demo / Screenshots](#-demo--screenshots)
+* [📄 File Structure](#-file-structure)
+* [🧪 Running Tests](#-running-tests)
+* [🤝 Contributing](#-contributing)
+* [🙌 Acknowledgements](#-acknowledgements)
+* [📞 Contact](#-contact)
+* [⚖️ License](#️-license)
+
+---
+
 ## ✨ Features
 
 * **Multi-Format Support**: Upload research papers in PDF, TXT, or DOCX formats.
@@ -13,23 +33,6 @@ This project is a Streamlit-based web application that allows you to upload rese
 * **Structured Output**: Summaries are well-structured for easy readability.
 * **Error Handling**: Robust error handling for file uploads and processing.
 * **Download Summary**: Easily download the generated summary as a text file.
-
----
-
-## 🛠️ Technologies Used
-
-The project is built using the following key technologies:
-
-* **Streamlit**: For building the interactive web application interface.
-* **LangChain**: A framework for developing applications powered by language models, used for document loading, text splitting, embeddings, and RAG chain construction.
-* **PyMuPDFLoader**: For loading PDF documents.
-* **TextLoader**: For loading plain text documents.
-* **UnstructuredWordDocumentLoader**: For loading DOCX documents.
-* **RecursiveCharacterTextSplitter**: For breaking down documents into manageable chunks.
-* **OpenAI Embeddings**: For converting text chunks into vector representations.
-* **FAISS**: A library for efficient similarity search and clustering of dense vectors, used as the vector store.
-* **ChatGroq**: For integrating with Groq's low-latency inference engine, utilizing the `llama-3.3-70b-versatile` model for summarization.
-* **python-dotenv**: For managing environment variables.
 
 ---
 
