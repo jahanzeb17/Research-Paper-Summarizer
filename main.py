@@ -76,8 +76,8 @@ def docs_chunks(docs):
 def vector_db(chunks):
     """Create vector database from chunks"""
     try:
-        embeddings = OpenAIEmbeddings()
-        # embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
+        # embeddings = OpenAIEmbeddings()
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
         
         db = FAISS.from_documents(chunks, embeddings)
         return db
@@ -92,7 +92,7 @@ def get_llm_response(db, style_input, length_input, query="Summarize this resear
         # Create retriever and get relevant documents
         retriever = db.as_retriever(
             search_type="similarity",
-            search_kwargs={"k": 5}  # Retrieve top 5 relevant chunks
+            search_kwargs={"k": 3}  # Retrieve top 5 relevant chunks
         )
         
         # Retrieve relevant documents
